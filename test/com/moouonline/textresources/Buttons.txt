@@ -1,0 +1,13 @@
+STOP_LABEL<<ENDOFDATA
+Stop\
+ENDOFDATA
+PLAY_LABEL<<ENDOFDATA
+Play\
+ENDOFDATA
+ESCAPE_TEST<<ENDOFDATA
+This is test data.  There should be a line feed
+<-- there, but there should not be a line feed \
+<-- there.
+There should be a trailing slash and a line feed \\
+<-- there.\
+ENDOFDATA
